@@ -13,7 +13,9 @@ SOURCES += main.cpp \
     compressor.cpp \
     zip_compressor.cpp \
     arj_compressor.cpp \
-    rar_compressor.cpp
+    rar_compressor.cpp \
+    compression.cpp \
+    peazip_compressor.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -30,4 +32,6 @@ HEADERS += \
     compressor.h \
     zip_compressor.h \
     arj_compressor.h \
-    rar_compressor.h
+    rar_compressor.h \
+    compression.h \
+    peazip_compressor.h
